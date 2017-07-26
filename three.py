@@ -3,7 +3,7 @@ import numpy as np
 
 recognizer = cv2.face.createLBPHFaceRecognizer()
 recognizer.load('trainner/trainner.yml')
-cascadePath = "/Users/senora/Desktop/opencv/data/haarcascades/haarcascade_frontalface_default.xml"
+cascadePath = "~/Desktop/opencv/data/haarcascades/haarcascade_frontalface_default.xml"
 faceCascade = cv2.CascadeClassifier(cascadePath);
 
 

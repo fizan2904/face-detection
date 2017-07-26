@@ -2,8 +2,8 @@ import numpy as np
 import cv2
 import sys
 
-face_cascade = cv2.CascadeClassifier('/Users/senora/Desktop/opencv/data/haarcascades/haarcascade_frontalface_default.xml')
-eye_cascade = cv2.CascadeClassifier('/Users/senora/Desktop/opencv/data/haarcascades/haarcascade_eye.xml')
+face_cascade = cv2.CascadeClassifier('~/Desktop/opencv/data/haarcascades/haarcascade_frontalface_default.xml')
+eye_cascade = cv2.CascadeClassifier('~/Desktop/opencv/data/haarcascades/haarcascade_eye.xml')
 
 video_capture = cv2.VideoCapture(0)
 
